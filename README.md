@@ -11,4 +11,17 @@
  ### Project Development
  #### 1. Install KOA 
  `npm install koa`
- 
+ #### 2. Develop basic App
+<br> 2.1 Automatic restart service
+`npm i nodemon`
+<br> Develop package.json
+` "scripts": {
+    "dev": "nodemon ./scr/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }`
+<br> run `npm run dev` to start service
+<br>
+<br>2.2 Read env file
+`npm i dotenv`
+2.3 Create .env file
+`APP_PORT = 5050`
