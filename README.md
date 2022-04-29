@@ -7,3 +7,8 @@
  #### 2. git initialization
  `git init`
  #### 3. README initialization
+
+ ### Project Development
+ #### 1. Install KOA 
+ `npm install koa`
+ 
