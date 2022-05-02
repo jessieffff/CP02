@@ -25,3 +25,5 @@
 `npm i dotenv`
 2.3 Create .env file
 `APP_PORT = 5050`
+
+2.4 Add routes
